@@ -7,3 +7,38 @@ body{
   align-items: center;
   justify-content: center;
 }
+form{
+  background: #fff;
+  padding: 60px;
+  width: 550px;
+  max-width: calc(100% - 60px);
+}
+
+.form-element{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.form-element span{
+  margin-bottom: 10px;
+}
+
+input, textarea{
+  border: 1px solid #d0d2e2;
+  line-height: 2;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.radio-buttons label{
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+form button {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  background: #1aa;
+}

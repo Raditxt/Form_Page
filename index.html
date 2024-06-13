@@ -12,35 +12,41 @@
       <h1>Testing Google Form</h1>
       <div class="form-element">
         <span> Email address </span>
-        <input type="email" name="emailAddress" placeholder="Email" />
+        <input type="email" name="emailAddress" required placeholder="Email" />
       </div>
       <div class="form-element">
         <span> Name </span>
-        <input type="text" name="entry" placeholder="Name" />
+        <input type="text" name="entry" required placeholder="Name" />
       </div>
-      <div class="form-element radio-buttons">
+      <div class="form-element radio-buttons" >
         <span>Apa ini</span>
         <label for="Gak-tau">
-          <span>Gak tau</span>
           <input
             type="radio"
-            name="entry.13732373732"
+            name="entry.1363313119"
             id="Gak_Tau"
             value="Gak_Tau"
+            required
           />
+          <span>Gak tau</span>
         </label>
         <label for="Gak-tau">
+          <input
+            type="radio"
+            name="entry.1363313119"
+            id="Ngehe"
+            value="Ngehe"
+          />
           <span>Ngehe</span>
-          <input type="radio" name="" id="Ngehe" value="Ngehe" />
         </label>
         <label for="Gak-tau">
+          <input type="radio" name="entry.1363313119" id="Bjir" value="Bjir" />
           <span>Bjir</span>
-          <input type="radio" name="" id="Bjir" value="Bjir" />
         </label>
       </div>
       <div class="form-element">
         <span>Message</span>
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea name="entry.1117279355" id="" cols="30" rows="10"></textarea>
       </div>
 
       <button type="submit">Kirim</button>
